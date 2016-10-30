@@ -1,0 +1,34 @@
+{
+  "name": "browser-sync-middleware-firebase-rewrites",
+  "version": "1.0.0",
+  "description": "A BrowserSync middleware to load the Firebase rewrites rules",
+  "main": "index.js",
+  "dependencies": {
+    "glob-to-regexp": "^0.3.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js",
+    "coverage": "istanbul cover _mocha -- tests/tests.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demsking/browser-sync-middleware-firebase-rewrites.git"
+  },
+  "keywords": [
+    "browser-sync",
+    "browsersync",
+    "middleware",
+    "firebase",
+    "rewrites"
+  ],
+  "author": "Sébastien Demanou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demsking/browser-sync-middleware-firebase-rewrites/issues"
+  },
+  "homepage": "https://github.com/demsking/browser-sync-middleware-firebase-rewrites#readme"
+}
